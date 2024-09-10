@@ -5,6 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="org.example.ffxivtreasurechesthelper.FFXIVTreasureChestHelperController">
     <padding>
@@ -12,6 +13,8 @@
     </padding>
 
     <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<!--    <Button text="Hello!" onAction="#onHelloButtonClick"/>-->
+    <Label fx:id="title">Enter the treasure chest coordinates below.</Label>
+    <TextField fx:id="inputCoordinate" onAction="#onCoordinateInput"/>
     <Label fx:id="zoneData"/>
 </VBox>
