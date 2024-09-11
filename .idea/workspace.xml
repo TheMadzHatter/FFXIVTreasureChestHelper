@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df816925-1d2e-419c-8fa7-369e1e065f19" name="Changes" comment="Initial JavaFX project commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/RouteHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ffxivtreasurechesthelper/CoordinateMatcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ffxivtreasurechesthelper/CoordinateParserTest.java" afterDir="false" />
+    <list default="true" id="df816925-1d2e-419c-8fa7-369e1e065f19" name="Changes" comment="Added a new text field for taking user input.&#10;Added logic for parsing zone data from file.&#10;Added logic for finding the closest chest to the inputted coordinates.&#10;Added unit test to cover match logic happening correctly.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/CoordinateMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/CoordinateMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/CoordinateParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/CoordinateParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/FFXIVTreasureChestHelperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/FFXIVTreasureChestHelperController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ffxivtreasurechesthelper/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ffxivtreasurechesthelper/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/RouteHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ffxivtreasurechesthelper/RouteHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <recent name="org.example.ffxivtreasurechesthelper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CoordinateMatcherTest.inputCoordinateToChestCoordinateMatchTest">
+  <component name="RunManager" selected="Application.FFXIVTreasureChestHelper">
     <configuration name="FFXIVTreasureChestHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ffxivtreasurechesthelper.FFXIVTreasureChestHelper" />
       <module name="FFXIVTreasureChestHelper" />
@@ -135,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FFXIVTreasureChestHelper" />
         <item itemvalue="JUnit.CoordinateMatcherTest.inputCoordinateToChestCoordinateMatchTest" />
         <item itemvalue="JUnit.org.example.ffxivtreasurechesthelper in FFXIVTreasureChestHelper" />
         <item itemvalue="JUnit.CoordinateParserTest.basicTest" />
-        <item itemvalue="Application.FFXIVTreasureChestHelper" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +154,20 @@
       <option name="project" value="LOCAL" />
       <updated>1725659910091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a new text field for taking user input.&#10;Added logic for parsing zone data from file.&#10;Added logic for finding the closest chest to the inputted coordinates.&#10;Added unit test to cover match logic happening correctly.">
+      <option name="closed" value="true" />
+      <created>1725994149711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725994149711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial JavaFX project commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial JavaFX project commit" />
+    <MESSAGE value="Added a new text field for taking user input.&#10;Added logic for parsing zone data from file.&#10;Added logic for finding the closest chest to the inputted coordinates.&#10;Added unit test to cover match logic happening correctly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new text field for taking user input.&#10;Added logic for parsing zone data from file.&#10;Added logic for finding the closest chest to the inputted coordinates.&#10;Added unit test to cover match logic happening correctly." />
   </component>
 </project>

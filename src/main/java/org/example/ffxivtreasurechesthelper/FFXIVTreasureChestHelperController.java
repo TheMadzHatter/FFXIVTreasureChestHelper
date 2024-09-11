@@ -6,6 +6,7 @@ import javafx.scene.control.*;
 import java.io.InputStream;
 
 public class FFXIVTreasureChestHelperController {
+    RouteHelper routeHelper = new RouteHelper();
     @FXML
     public Label title;
 
@@ -29,6 +30,7 @@ public class FFXIVTreasureChestHelperController {
     @FXML
     protected void onCoordinateInput(){
         String inputValue = inputCoordinate.getText();
+        routeHelper.addChest(inputValue);
         zoneData.setText(inputValue);
     }
 }

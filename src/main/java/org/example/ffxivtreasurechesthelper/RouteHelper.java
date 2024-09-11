@@ -16,6 +16,8 @@ public class RouteHelper {
 
     public void addChest(String input){
         Coordinate chest = parser.parseUserInput(input);
-
+        List<Coordinate> zoneChests = chestsByZone.getOrDefault(chest.getZone(), new ArrayList<>());
+        zoneChests.add(chest);
+        chestsByZone.put(chest.getZone(), zoneChests);
     }
 }
